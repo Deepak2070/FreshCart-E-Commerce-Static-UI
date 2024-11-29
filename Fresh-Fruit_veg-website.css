@@ -1,0 +1,1141 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background: white;
+}
+.maincontainer{
+    width: 100%;
+    height: auto;
+}
+.mainhead{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(13, 14, 14);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+.lcolor{
+    color: rgb(9, 193, 9);
+}
+.logoicon{
+    margin-left: 1rem;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.logoicon:hover{
+    border: 1px solid rgb(252, 245, 245);
+}
+#inputtxt{
+    width: 500px;
+    height: 40px;
+    padding-left: 2rem;
+    margin-left: -5rem;
+    border: 1px solid black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 17px;
+}
+.inputsbtn{
+    display: flex;
+    flex-wrap: wrap;
+}
+.search{
+    width: 40px;
+    height: 2rem;
+    font-size: 25px;
+    padding-top:0.7rem;
+    padding-left: 0.8rem;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(15, 208, 15);
+    border: 1px solid black;
+}
+.location{
+    width: 110px;
+    height: 35px;
+    margin-left: -7rem;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 0.6rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.location:hover{
+    color: black;
+    background-color: white;
+}
+.fa-location-dot{
+    margin-right: 0.6rem;
+    padding-top: 1px;
+}
+.lam{
+    width: 120px;
+    display: flex;
+    font-size: 25px;
+    margin-right: 1rem;
+    text-align: center;
+}
+.lam a {
+  color: white;
+}
+.likeicon{
+    width: 40px;
+    height: 35px;
+}
+.usericon{
+    width: 40px;
+    height: 35px;
+}
+.massageicon{
+    width: 40px;
+    height: 35px;
+}
+.lam a:hover{
+    color: blue;
+    border: 1px solid white;
+}
+ /* second header */
+
+ .option{
+    width: 98%;
+    height: 35px;
+    /* margin-top: 1.5rem; */
+    padding: 10px;
+    line-height: 2rem;
+    text-align: left;
+    background-color: rgb(241, 244, 243);
+  }
+ .option a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    padding: 0.3rem;
+ }
+ .dropdown {
+  display: inline-block;
+  position: relative;
+}
+.action{
+  border:none;
+  cursor:pointer;
+}
+.dropdown-options {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  overflow: auto;
+  border-radius:5px;
+}
+.dropdown:hover .dropdown-options {
+  display: block;
+  flex-wrap: wrap;
+}
+.dropdown-options a {
+  display: block;
+  color: #000000;
+  text-decoration: none;
+  background-color: white;
+  font-size: 14px;
+  padding-top: -9rem;
+  width: 200px; 
+}
+.dropdown-options a:hover {
+  color: #0a0a23;
+  background-color: #ddd;
+  border-radius:5px;
+} 
+.Department{
+    background-color: rgb(14, 210, 14);
+    color: white;
+    font-weight: 700;
+    margin-left: -1rem;
+    border-radius: 5px;
+}
+ .action:hover{
+    color: green;
+ }
+ .mega:hover{
+    display: inline-block;
+    flex-wrap: wrap;
+ }
+ .submenu{
+    display: flex;
+    width: 900px;
+    background-color: white;
+    height: 280px;
+    margin: 1rem 1rem 1rem 0rem;
+    margin-left: -3rem;
+ }
+ .img{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    background-image: url("./banner_image/menu-banner_dropdown.jpg");
+    background-size: cover;
+ }
+ .txt1{
+    margin-top: 1rem;
+ }
+ .imgt{
+    margin-left: 1rem;
+    font-weight: 550;
+    font-size: 14px;
+    color: black;
+ }
+ .shopnow{
+    background-color: rgb(12, 174, 12);
+    color: white;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    padding: 5px;
+ }
+ .margin2 a{
+  margin-top: -0.5rem;
+ }
+ .submenu a{
+  margin-top: -0.8rem;
+ }
+
+ /* hero section */
+ 
+ img 
+ {vertical-align: middle;}
+
+ /* Slideshow container */
+ .slideshow-container {
+   max-width: 100%;
+   position: relative;
+   margin: 1rem;
+ }
+ /* Next & previous buttons */
+ .prev, .next {
+   cursor: pointer;
+   position: absolute;
+   top: 50%;
+   width: auto;
+   padding: 16px;
+   margin-top: -22px;
+   color: white;
+   font-weight: bold;
+   font-size: 18px;
+   transition: 0.6s ease;
+   border-radius: 0 3px 3px 0;
+   user-select: none;
+   -webkit-transition: 0.6s ease;
+   -moz-transition: 0.6s ease;
+   -ms-transition: 0.6s ease;
+   -o-transition: 0.6s ease;
+}
+ /* Position the "next button" to the right */
+ .next {
+   right: 0;
+   border-radius: 3px 0 0 3px;
+ }
+ /* On hover, add a black background color with a little bit see-through */
+ .prev:hover, .next:hover {
+   background-color: rgba(0,0,0,0.8);
+ }
+ /* Caption text */
+ .text {
+   color: #f2f2f2;
+   font-size: 15px;
+   padding: 8px 12px;
+   position: absolute;
+   bottom: 8px;
+   width: 100%;
+   text-align: center;
+ }
+ /* Number text (1/3 etc) */
+ .numbertext {
+   color: #f2f2f2;
+   font-size: 12px;
+   padding: 8px 12px;
+   position: absolute;
+   top: 0;
+ }
+ /* The dots/bullets/indicators */
+ .dot {
+   cursor: pointer;
+   height: 15px;
+   width: 15px;
+   margin: 0 2px;
+   background-color: #bbb;
+   border-radius: 50%;
+   display: inline-block;
+   transition: background-color 0.6s ease;
+}
+ .active, .dot:hover {
+   background-color: #717171;
+ }
+ /* Fading animation */
+ .fade {
+   animation-name: fade;
+   /* animation-duration: 1.5s; */
+ }
+ @keyframes fade {
+   from {opacity: .4} 
+   to {opacity: 1}
+ }
+ 
+ /* On smaller screens, decrease text size */
+ @media only screen and (max-width: 300px) {
+   .prev, .next,.text {font-size: 11px}
+ }
+ .img1{
+  width: 100%;
+  height:470px;
+  z-index: 0;
+  background-image: url(./hero_img-veg&fru/vegetable_heroimg1.jpg);
+   background-size: cover;
+ } 
+ .img2{
+  width: 100%;
+  height:470px;
+  z-index: 0;
+  background-image: url(./hero_img-veg&fru/fruits_heroimg.jpg);
+   background-size: cover;
+ }
+
+ /* write text on hero image */
+ 
+ .main-img-con{
+  width: 100%;
+  height: 300px;  
+  display: flex;
+  align-items: center;
+ }
+ .imgcon{
+  color: white;
+margin-left: 38rem;
+ }
+ .imgtxt{
+  width: 180px;
+  color: black;
+  background-color: #ffc107;
+  padding-left: 0.4rem;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Arial;
+  margin-top: 15rem;
+ }
+ .imghead{
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin-top: -0.4rem;
+ }
+ .imghead1{
+  margin-top: -2rem;
+  font-weight: 700;
+  font-size: 3.5rem;
+  font-family: Arial;
+ }
+ .lasttxtonimg{
+  color: white;
+  padding-left: 0.4rem;
+  font-size: 17.5px;
+  font-weight: 500;
+  font-family: Arial;
+  margin-top: -0.9rem;
+ }
+ .onimgbtn{
+   background-color:rgb(242, 243, 245);
+   color: black;
+   padding: 0.6rem;
+   border-radius: 10px;
+   text-decoration: none;
+font-size: 17px;
+cursor: pointer;
+margin-left: 4rem;
+margin-top: 1rem;
+}
+.onimgbtn:hover{
+  background-color: rgb(30, 209, 13);
+} 
+ /* second img on text */
+
+ .imgcon1{
+  color: white;
+margin-left: 44rem;
+ }
+ .imgtxt1{
+  width: 220px;
+  color: black;
+  background-color: #e4d092;
+  padding-left: 0.4rem;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Arial;
+  margin-top: 15rem;
+ }
+  .imghead21{
+    font-family: Arial;
+    color: #000;
+    font-weight: 700;
+    font-size: 3.5rem;
+    margin-top: -0.2rem;
+ }
+ .imghead22{
+  margin-top: -2rem;
+  color: #000;
+  font-weight: 700;
+  font-size: 3.5rem;
+  font-family: Arial;
+ }
+ .doller{
+  position: relative;
+ margin-top: -6.3rem;
+ margin-left: 18rem;
+ font-size: 3.5rem;
+ color: green;
+ font-family: Arial;
+ font-weight: 700;
+
+ }
+ .lasttxtonimg2{
+  color: #000;
+  padding-left: rem;
+  font-size: 17.5px;
+  font-weight: 500;
+  font-family: Arial;
+  margin-top: -3.5rem;
+ }
+ .lasttxtonimg3{
+margin-top: -1rem;
+color: #000;
+padding-left: rem;
+font-size: 17.5px;
+font-weight: 500;
+font-family: Arial;
+ }
+ .onimgbtn2{
+  background-color:rgb(148, 176, 232);
+  color: black;
+  padding: 0.6rem;
+  border-radius: 10px;
+  text-decoration: none;
+font-size: 17px;
+cursor: pointer;
+margin-left: 4rem;
+margin-top: 1rem;
+}
+.onimgbtn2:hover{
+  background-color: rgb(23, 234, 16);
+}
+
+/* third section  */
+.headind{
+  width: 98%;
+  height: 40px;
+  margin: 1rem;
+  color: #21313c;
+  font-size: 24px;
+  font-family: Arial;
+  font-weight: 600;
+}
+
+.third-section{
+  margin: 1rem;
+width: 98%;
+height: 300px;
+}
+.boxcon{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 250px;
+}
+.box{
+  display: inline-block;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+  width: auto;
+  height: 250px;
+  border-radius: 10px;
+  border: 1px solid rgb(154, 152, 152);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.innerbox{
+  width: 150px;
+  height: 150px;
+  margin:  1rem 1rem 1rem 1rem;
+  margin-top: 2rem;
+}
+.inimg1{
+  background-image: url(./features-category/snack&manchies_feat_img1.jpg);
+  background-size: cover;
+}
+.inimg2{
+  background-image: url(./features-category/category-tea-coffee-drinks_img2.jpg);
+  background-size: cover;
+}
+.inimg3{
+  background-image: url(./features-category/category-bakery-biscuits_img3.jpg);
+  background-size: cover;
+}
+.inimg4{
+  background-image: url(./features-category/category-dairy-bread-eggs_img4.jpg);
+  background-size: cover;
+}
+.inimg5{
+  background-image: url(./features-category/category-atta-rice-dal_img5.jpg);
+  background-size: cover;
+}
+.inimg6{
+  background-image: url(./features-category/category-chicken-meat-fish_img6.jpg);
+  background-size: cover;
+}
+.fetxt{
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+}
+
+/* fourth section vegetabl and baked buns */
+
+.forthcon{
+  width: 98%;
+  height: 250px;
+  margin: 1rem;
+}
+.subheroimg{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.secheroimg1{
+ width: 49%;
+ height: 270px;
+ border-radius:10px;
+ background-image: url(./sub_hero-img1/sub-here-img1.jpg);
+ background-size: cover;
+ -webkit-border-radius:10px;
+ -moz-border-radius:10px;
+ -ms-border-radius:10px;
+ -o-border-radius:10px;
+}
+.secheroimg2{
+ width: 49%;
+ height: 270px;
+ border-radius: 10px;
+ margin-left: 1.5rem;
+ background-image: url(./sub_hero-img1/freshly-baked-buns-img2.jpg);
+ background-size: cover;
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+ -ms-border-radius: 10px;
+ -o-border-radius: 10px;
+}
+.secheroimg,.secheroimgtxt,.sechero-shop-now,.secheroimg3,.secheroimgtxt3,.sechero-shop-now3{
+  font-family: Arial;
+  margin-left: 3rem;
+}
+.secheroimg,.secheroimg3{
+  margin-top: 3rem;
+}
+.sechero-shop-now{
+    padding: 10px;
+    width: 7rem;
+    color: white;
+    background-color: black;
+    border-radius:10px ;
+    cursor: pointer;
+    font-weight: 700;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+}
+.secheroimg3,.secheroimgtxt3{
+  color: black;
+}
+.sechero-shop-now3{
+    padding: 10px;
+    width: 7rem;
+    color: white;
+    font-weight: 700;
+    background-color: rgb(13, 13, 13);
+    border-radius:10px;
+    font-family: Arial;
+    cursor: pointer;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}
+
+/* <!-- big addveretiesment of fruit and vegetables --> */
+  
+    .fruite-vegetbl{
+      width: 90%;
+      height: 400px;
+      margin-left: 4rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .fruit{
+      width: 48%;
+      height: 350px;
+      background-image: url(./banner_image/fruit-bannerimg-2.jpg);
+      background-size: cover;
+      border-radius: 10px;
+    }
+    .vegetbl{
+      width: 48%;
+      height: 350px;
+      background-image: url(./banner_image/vegetble-new-img3.jpg);
+      background-size: cover;
+      border-radius: 10px;    
+}
+.ff{
+margin:1rem ; 
+ color: white;
+ font-size: 40px;
+
+}
+.get50{
+  font-size: 17px;
+  color: white;
+}
+.fruitbtn{
+  width: 100px;
+  height: 30px;
+  background-color: blue;
+  padding: 0.5rem;
+  color: #fff;
+}
+.des{
+  margin-left: 3rem;
+  text-decoration: none;
+font-family: Arial;
+}
+.btn:hover{
+  background-color: green;
+}
+.o{
+  color: #fff;
+}
+
+/* fifth section popular product */
+
+.popularheading,.fruit-veg{
+  width: 99%;
+  height: 40px;
+  margin: 10px;
+  font-size: 24px;
+  font-family: Arial;
+  font-weight: 600;
+  color: #21313c;
+}
+.fifthcon{
+  width: 99%;
+  height: auto;
+  margin: 10px;
+}
+.popular-pro{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+.showdeal{
+  width: 50px;
+  margin: 0.5rem 0rem 0rem 1rem;
+  height: 20px;
+  text-align: center;
+  background-color: red;
+  font-weight: 500;
+  font-family: Arial;
+  color: white;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+.pop-pro{
+  width: 225px;
+  height: 360px;
+  border: 0.5px solid rgb(180, 175, 175);
+  margin: 0.6rem 0.7rem 1rem 0.6rem;
+  border-radius: 10px;
+}
+
+  /* img on icon container */
+
+.img1con{
+  width: 225px;
+  height: 180px;
+  margin-left: -1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.iconcon{
+  width: 100;
+  height: 90px;
+display: none;
+}
+.i{
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+  background-color: white;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 8px;
+  color: black;
+  text-align: center;
+  font-size: 18px;
+}
+.i:hover{
+    background-color: rgb(21, 209, 21);
+  }
+  .daily-b-sell-con:hover{
+    .iconcon{
+      display: block;   
+}
+border: 1.4px solid rgb(27, 210, 27) ;
+  }
+  .pop-pro:hover{
+    .iconcon{
+         display: block;   
+ }
+ border: 1.4px solid rgb(27, 210, 27) ;
+  }
+.pro1{
+  text-align: center;
+  margin-top: -0.4rem;
+  color: #5c6c75bf;
+  font-size: 14px;
+  margin-left: -3.4rem;  
+margin-bottom:-0.5rem;
+font-family: Arial;
+}
+.pro-name{
+  text-decoration: none;
+margin-left: 1.7rem;  
+margin-bottom: -10px;
+font-family: Arial;
+  font-size: 15px;
+  color: black;
+}
+ .pop-pro a,.daily-b-sell-con a{
+ text-decoration: none;
+}
+.amount-notamount-btn{
+  display: flex;
+  flex-wrap: wrap;
+}
+.rating{
+  color: rgb(255,193,7,1);
+  margin-left: 1.7rem;
+}
+.amount{
+  margin-left: 2rem;
+  font-size: 18px;
+  color: black;
+  font: 700;
+  font-family: Arial;
+}
+.additem{
+  width: 60px;
+  height: 25px;
+  margin-left: auto;
+  /* padding: 1rem; */
+  background-color: #0aad0a;
+  color: white;
+  margin-right: 1rem;
+  font-family: Arial;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}.not-apply{
+  margin-left: 0.5rem;
+  font-size: 18px;
+  color: #5c6c75bf;
+  font-weight: 500;
+  font-family: Arial;
+  text-decoration: line-through;
+}
+.pro-img1{
+  margin: 1rem 1rem 1rem 1.3rem;
+  width: 180px;
+  height: 180px;
+  background-image: url(./popular-product/product-img-1_haldiramsevbhujja_pop_.jpg);
+  background-size: cover;
+}
+.pro-img2{
+  margin: 1rem 1rem 1rem 1.3rem;
+  width: 180px;
+  height: 180px;
+   background-image: url(./popular-product/product-img-2_nutrichoice-digestive.jpg);
+   background-size: cover;
+}
+.pro-img3{
+  margin: 1rem 1rem 1rem 1.3rem;
+  width: 180px;
+  height: 180px;
+   background-image: url(./popular-product/cadburry-star-chocolate_img3.jpg);
+   background-size: cover;
+}
+.pro-img4{
+  margin: 1rem 1rem 1rem 1.3rem;
+  width: 180px;
+  height: 180px;
+  background-image: url(./popular-product/product-img-4-Onion\ Flavour\ Potato.jpg);
+}
+.pro-img5{
+  margin: 1rem 1rem 1rem 1.3rem;
+  width: 180px;
+  height: 180px;
+  background-image: url(./popular-product/product-img-5-popcon.jpg);
+  background-size: cover;
+}
+.pro-img6{
+  margin: 1rem 1rem 1rem 1.3rem;
+  width: 180px;
+  height: 180px;
+  background-image: url(./popular-product/product-img-6-Blueberry\ Greek\ Yogurt.jpg);
+  background-size: cover;
+}
+.pro-img7{
+  margin: 1rem 1rem 1rem 1.3rem;
+  width: 180px;
+  height: 180px;
+  background-image: url(./popular-product/product-img-7-Britannia\ Cheese\ Slices.jpg);
+  background-size: cover;
+}
+.pro-img8{
+  margin: 1rem 1rem 1rem 1.3rem;
+  width: 180px;
+  height: 180px;
+  background-image: url(./popular-product/product-img-8-Kellogg\'s\ Original\ Cereals.jpg);
+  background-size: cover;
+}
+.pro-img9{
+  margin: 1rem 1rem 1rem 1.3rem;
+  width: 180px;
+  height: 180px;
+  background-image: url(./popular-product/product-img-9-Slurrp\ Millet\ Chocolate.jpg);
+  background-size: cover;
+}
+.pro-img10{
+  margin: 1rem 1rem 1rem 1.3rem;
+  width: 180px;
+  height: 180px;
+  background-image: url(./popular-product/product-img-10-Amul\ Butter\ -\ 500\ g.jpg);
+  background-size: cover;
+}
+
+/* vegetable hero image */
+  
+.vegetableheroimg{
+  width: 99%;
+  height: 300px;
+  margin: 1rem;
+  background-image:url(./hero_img-veg&fru/freshvegetable_logo_name.jpg);
+  background-size: cover;
+}
+
+ /* six content daily best sell */
+
+ .Heading-dbs{
+  width: 99%;
+  height: 40px;
+  margin: 10px;
+  font-size: 24px;
+  font-family: Arial;
+  font-weight: 600;
+  color: #21313c;
+ }
+ .sixcon{
+  width: 99%;
+  margin: 1rem;
+  height: 500px;
+ }
+ .daily-best-sell{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+ }
+ .daily-b-sell-con{
+  width: 286px;
+  border: 1px solid rgb(150, 150, 150);
+  border-radius: 10px;
+  height: 450px;
+  margin: 0.5rem 0.5rem 1rem 1rem;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+ .rating-sell{
+  color: rgb(255,193,7,1);
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+.amount-rating{
+  display: flex;
+}
+.dailybs-img{
+  width:100%;
+  height: 445px;
+  margin-top: -1rem;
+  background-image: url(./popular-product/coffee-img11-2.jpg);
+  background-size: cover;
+}
+.dailybs-img11{
+  width: 200px;
+  height: 220px;
+  margin: 2rem 1rem 1rem 2.5rem;
+  background-image: url(./popular-product/product-img-11-Roast\ Ground\ Coffee.jpg);
+  background-size: cover;
+}
+.dailybs-img12{
+  width: 200px;
+  height: 220px;
+  margin: 2rem 1rem 1rem 2.5rem;
+  background-image: url(./popular-product/product-img-12-Crushed\ Tomatoes.jpg);
+  background-size: cover;
+}
+.dailybs-img13{
+  width: 200px;
+  height: 220px;
+  margin: 2rem 1rem 1rem 2.5rem;
+  background-image: url(./popular-product/product-img-13-Golden\ Pineapple.jpg);
+  background-size: cover;
+}
+.dailybs-name{
+  margin: 2rem 0rem 0rem 1rem;
+  font-size: 14px;
+  color: #21313c;
+  font-family: Arial;
+}
+.dailybs-proname{
+  margin: 0.5rem 0rem 0rem 1rem;
+  font-size: 16px;
+  color: #0a0a23;
+  font-family: Arial;
+}
+.amount-sell{
+ margin-left: 1rem;
+font-size: 18px;
+color: black;
+font: 700;
+font-family: Arial;
+}
+.add-to-cart{
+  width: 220px;
+  height: 20px;
+  margin-left: 1rem;
+  text-align: center;
+  font-family: Arial;
+  padding: 0.8rem;
+  background-color: #0aad0a;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.dailybs-img h2{
+  font-size: 25px;
+  color: white;
+  margin-left: 2rem;
+  padding-top: 1rem;
+  font-family: Arial;
+}
+.dailybs-img p{
+  font-size: 16px;
+  font-family: Arial;
+  color: white;
+  margin-left: 2rem;
+}
+.dailybs-img button{
+  margin-left: 2rem;
+  font-size: 16px;
+  background-color: rgb(49, 206, 49);
+  padding: 0.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+/* seventh container is the icons */
+
+.sevencon{
+  width: 99%;
+  height: 230px;
+  margin: 1rem;
+}
+.all-icon{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.icons{
+  width: 22%;
+  height: auto;
+  margin-left: 2rem;
+}
+.icon{
+  font-size: 35px;
+  color: rgb(52, 215, 52);
+}
+.icons h3{
+  font-family: Arial;
+  color: #0a0a23;
+  font-size: 18px;
+}
+.icons p{
+  font-family: Arial;
+  color: #21313c;
+  font-size: 15px;
+  font-weight: 400;
+}
+p a{
+  text-decoration: none;
+  color: green;
+}
+
+/* footer containe */
+
+.mainfootercon{
+  width:100%;
+  height: auto;
+  background-color: #f0f3f2;
+}
+.footer1{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.foobox{
+  width: 15%;
+  height: auto;
+  margin-left: 1.1rem;
+}
+.foobox p{
+  font-size: 15px;
+  color: #5c6c75;
+  font-family: Arial;
+ padding-left: 10px;
+}
+.foobox h3{
+  padding-left: 10px;
+  color: #21313c;
+  font: 17px;
+  font-family: Arial;
+}
+.foobox a{
+  text-decoration: none;
+}
+.hide{
+visibility: hidden;
+}
+.fo:hover{
+  color: green;
+}
+
+/* second footer */
+
+.secfooter{
+  width: 99%;
+  height: auto;
+  margin: 1rem; 
+}
+.payment-application{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.payment-partner{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+}
+.application{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.payment-partner p{
+  color: #0a0a23;
+  font-family: Arial;
+  font-size: 14px;
+margin-left: 1rem;
+}
+.application p{
+  margin-left: 8rem;
+  color: #0a0a23;
+  font-family: Arial;
+  font-size: 14px;
+}
+.copyrightsec{
+  width: 99%;
+  height: auto;
+  margin: 1rem;
+  display: flex;
+ justify-content: left;
+ align-items: center;
+}
+.txet-icon{
+  margin-left: 19rem;
+ display: flex;
+ justify-content: right;
+ align-items: center;
+ gap: 1rem;
+}
+.border{
+  border: 1px solid black;
+  padding: 4px;
+  border-radius: 5px;
+  text-align: center;
+}
+.border:hover{
+  color: rgb(32, 193, 32);
+}
+.mail{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: -2rem;
+  margin-left: 1rem;
+}
+.c-r-s{
+  font-size: 12px;
+  color: #0a0a23;
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #21313c;
+  font-family: Arial;
+
+}
